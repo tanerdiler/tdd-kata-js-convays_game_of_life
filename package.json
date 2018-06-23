@@ -1,0 +1,31 @@
+{
+  "name": "convaysgame",
+  "version": "1.0.0",
+  "description": "Convay's game of life",
+  "main": "convaysgame.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test.js -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanerdiler/absent.js.git"
+  },
+  "keywords": [
+    "game",
+    "convay's game"
+  ],
+  "author": "Taner Diler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanerdiler/absent.js/issues"
+  },
+  "homepage": "https://github.com/tanerdiler/absent.js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^2.3.4"
+  }
+}
